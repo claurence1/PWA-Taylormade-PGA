@@ -42,7 +42,7 @@ window.onload = function () {
 								).then(_subscription => {
 									Notification.requestPermission(permission => {
 										if (permission === "granted") {
-											const notification = new Notification("You're falling in love");
+											const notification = new Notification("Il est beau hein");
 										}
 									});
 								});
